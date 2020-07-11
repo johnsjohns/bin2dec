@@ -1,6 +1,7 @@
 function start() {
     let entrada = document.getElementById("texto");
-    entrada.addEventListener("keyup", verifica, false)
+    entrada.addEventListener("keyup", verifica, false);
+    entrada.focus();
 }
 
 function verifica() {
